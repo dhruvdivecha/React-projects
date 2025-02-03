@@ -4,6 +4,10 @@ import { UserContext } from './UserContext';
 const UserProfile = () => {
   const { user } = useContext(UserContext);
 
+  if (!user) {
+    return <div>Loading user data...</div>;
+  }
+
   const styles = {
     container: {
       backgroundColor: "white",
