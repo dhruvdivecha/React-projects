@@ -8,7 +8,7 @@ import Profile from './components/Profile.jsx';
 import ShoppingList from './components/ShoppingList.jsx';
 import TodoList from './components/TodoList.jsx';
 import { UserProvider } from './components/UserContext.jsx'; 
-import { UserProfile } from './components/userProfile.jsx';
+import { UserProfile } from './components/UserProfile.jsx';
 import { UpdateUser } from './components/UpdateUser.jsx';
 import CounterReducer from './components/ReducerCounter.jsx';
 import FocusInput from './components/FocusInput.jsx';
